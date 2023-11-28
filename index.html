@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project bootstrap two</title>
+    <link rel="stylesheet" href="style.css">
+
+            <!-- font link  -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+                <!-- font link 2  -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+        <!-- icon link  bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+            <!-- icon link font awsome -->
+     <script src="https://kit.fontawesome.com/512914040d.js" crossorigin="anonymous"></script>
+
+        <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    <header class="container ">
+
+        <nav class="navbar navbar-expand-lg px-4 bg-white">
+            <div class="container-fluid">
+              <a id="logo" class="navbar-brand fw-bold fs-4 me-5" href="index.html"><span class="fw-bolder fs-3  shanto">S</span>HANTOS </a>
+              <button class="navbar-toggler bg-warning " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-dark">
+                    <i class="bi bi-list"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold hover" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="#">Book</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="#">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-bold" href="#">Gallary</a>
+                  </li>
+                  <li class="nav-item " >
+                    <a class="nav-link text-dark fw-bold" href="#">About</a>
+                  </li>
+                                  
+                </ul>
+
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-warning fw-medium" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+                                <!-- hero section  -->
+    <main>
+        <section>
+            <div class="home text-center ">
+                <h5 class="text-white fw-medium fs-1">Wellcome To World</h5>
+                <h1 class="text-white fw-bolder">Visit <Span class="animate"></Span></h1>
+                <p class="text-white fw-bold fs-6 mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, fugiat.</p>
+                <a class=" btn fw-bold" href="">Book Place</a>
+            </div>
+        </section>
+                                <!-- section book  -->
+<section >   
+    <div class="container mt-5">
+        
+        <div class="row" >
+            <div class="col-12 " >
+                <p class="text-center fw-bolder" id="book"><span class="">B</span>ook</p>           
+            </div>
+            <div class="col-md-6 mt-5 mb-5" id="book-img">
+                <img class="img-fluid h-100 w-100" src="img/images/book-img.png" alt="">
+            </div>
+            <div class="col-md-6 mt-5 mb-5" id="input">
+                <form action="">
+                    <input class="form-control mb-md-5" type="text" placeholder="Where To" required>
+                    <input class="form-control mb-md-5" type="text" placeholder="How Many" required>
+                    <input class="form-control mb-md-5" type="date" placeholder="Arrivals" required>
+                    <input class="form-control mb-md-5" type="date" placeholder="Leaving" required>
+                    <textarea class="form-control mb-md-5"  cols="30" rows="3" placeholder="Enter Your Name & Details"></textarea>
+                    <button id="btn-book-now" class="btn btn-warning w-25">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+                    <!-- packages  -->
+
+<section>
+  <div class="container my-5">
+    <div class="row">  
+      <div class="col-12">
+        <p class="text-center mb-4" id="package-id"><span>P</span>ackages</p>
+
+      </div> 
+      <div class="col-md-4 py-3 py-md-0" >
+        <div class="card" id="one-card">
+          <img class="img-fluid rounded w-100 " src="img/images/uk.png" alt="">
+          <div class="card-body">
+            <h3 class="fw-bolder fs-2">United Kingdom</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum</p>
+            <div class="text-warning mb-1">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p class="fw-bold">Price: <span class="fw-bolder fs-5">$500</span></p>
+            <button class="btn btn-warning text-white mb-2">Book Now</button>
+          </div>
+        </div>       
+      </div>
+      <div class="col-md-4 py-3 py-md-0" >
+        <div class="card" id="one-card">
+          <img class="img-fluid rounded w-100 " src="img/images/france.png" alt="">
+          <div class="card-body">
+            <h3 class="fw-bolder fs-2">France</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum</p>
+            <div class="text-warning mb-1">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p class="fw-bold">Price: <span class="fw-bolder fs-5">$500</span></p>
+            <button class="btn btn-warning text-white mb-2">Book Now</button>
+          </div>
+        </div>       
+      </div>
+      <div class="col-md-4 py-3 py-md-0" >
+        <div class="card" id="one-card">
+          <img class="img-fluid rounded w-100 " src="img/images/pakistan.png" alt="">
+          <div class="card-body">
+            <h3 class="fw-bolder fs-2">Pakistan</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum</p>
+            <div class="text-warning mb-1">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p class="fw-bold">Price: <span class="fw-bolder fs-5">$500</span></p>
+            <button class="btn btn-warning text-white mb-2">Book Now</button>
+          </div>
+        </div>       
+      </div>
+      <div class="col-md-4 py-3 py-md-0 mt-5" >
+        <div class="card" id="one-card">
+          <img class="img-fluid rounded w-100 " src="img/images/italy.png" alt="">
+          <div class="card-body">
+            <h3 class="fw-bolder fs-2">Italy</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum</p>
+            <div class="text-warning mb-1">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p class="fw-bold">Price: <span class="fw-bolder fs-5">$500</span></p>
+            <button class="btn btn-warning text-white mb-2">Book Now</button>
+          </div>
+        </div>       
+      </div>
+      <div class="col-md-4 py-3 py-md-0 mt-5" >
+        <div class="card" id="one-card">
+          <img class="img-fluid rounded w-100 " src="img/images/india.png" alt="">
+          <div class="card-body">
+            <h3 class="fw-bolder fs-2">India</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum</p>
+            <div class="text-warning mb-1">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p class="fw-bold">Price: <span class="fw-bolder fs-5">$500</span></p>
+            <button class="btn btn-warning text-white mb-2">Book Now</button>
+          </div>
+        </div>       
+      </div>
+      <div class="col-md-4 py-3 py-md-0 mt-5" >
+        <div class="card" id="one-card">
+          <img class="img-fluid rounded w-100 " src="img/images/us.png" alt="">
+          <div class="card-body">
+            <h3 class="fw-bolder fs-2">United States</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum</p>
+            <div class="text-warning mb-1">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p class="fw-bold">Price: <span class="fw-bolder fs-5">$500</span></p>
+            <button class="btn btn-warning text-white mb-2">Book Now</button>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+</section>
+
+                      <!-- Services  -->
+
+<section class="mb-5 mt-5">
+  <div class="container bg-white ">
+    <div class="row">
+      <div class="col-12" id="services-head">
+        <p class="text-center mb-4"><Span>S</Span>ervices</p>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card text-center p-3" id="services-card">
+          <i class="fa-solid fa-hotel"></i>
+          <div class="card-body">
+            <h2 class="fw-bolder fs-1">Affordable Hotel</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam.</P>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card text-center p-3" id="services-card">
+          <i class="fa-solid fa-utensils"></i>
+          <div class="card-body">
+            <h2 class="fw-bolder fs-1">Affordable Hotel</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam.</P>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card text-center p-3" id="services-card">
+          <i class="fa-solid fa-bullhorn"></i>
+          <div class="card-body">
+            <h2 class="fw-bolder fs-1">Affordable Hotel</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam.</P>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="card text-center p-3" id="services-card">
+          <i class="fa-solid fa-earth-asia"></i>
+          <div class="card-body">
+            <h2 class="fw-bolder fs-1">Affordable Hotel</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam.</P>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="card text-center p-3" id="services-card">
+          <i class="fa-solid fa-plane"></i>
+          <div class="card-body">
+            <h2 class="fw-bolder fs-1">Affordable Hotel</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam.</P>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="card text-center p-3" id="services-card">
+          <i class="fa-solid fa-person-hiking"></i>
+          <div class="card-body">
+            <h2 class="fw-bolder fs-1">Affordable Hotel</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, veniam.</P>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+<section class="mt-5 mb-5 bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-12" id="Gallary-head">
+        <p class="text-center mb-4"><span>G</span>allary</p>
+      </div>
+      <div class="col-md-4">
+        <div class="card" id="Gallary-card">
+          <img class="" src="img/images/g1.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" id="Gallary-card">
+          <img class="" src="img/images/g2.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" id="Gallary-card">
+          <img class="" src="img/images/g3.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card " id="Gallary-card">
+          <img class="" src="img/images/g4.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card " id="Gallary-card">
+          <img class="" src="img/images/g5.png" alt="" height="230px">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card " id="Gallary-card">
+          <img class="" src="img/images/g6.png" alt="" height="230px">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5" id="about-bg">
+  <div class="container " >
+    <div class="row">
+      <div class="col-12" id="about-head">
+        <p class="text-center mb-4">About<span>Us</span></p>
+      </div>
+      <div class="col-lg-6">
+        <div class="card mb-5" id="about-card">
+          <img class="" src="img/images/about-img.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6" id="about-read">
+        <h2 class="fw-bolder fs-1">How Travel Agency Work</h2>
+        <P class="fs-5 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia magnam minima pariatur ratione earum repellendus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore ipsum at nulla assumenda unde vitae dicta animi sunt deleniti dolorum.</P>
+        <Button class="btn" id="about-btn">Read More.....</Button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+<footer class="" style="margin-top: 150px;">
+  <div class="container text-center py-5">
+    <div  id="footer-head">
+      <p><span>T</span>ravel</p> 
+    </div>
+    <p class="fs-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quam.</p>
+    <div class="mb-2">
+      <i class="fa-brands fa-twitter bg-dark p-2 rounded text-white"></i>
+      <i class="fa-brands fa-square-facebook bg-dark p-2 rounded text-white"></i>
+      <i class="fa-brands fa-instagram bg-dark p-2 rounded text-white"></i>
+      <i class="fa-brands fa-youtube bg-dark p-2 rounded text-white"></i>
+      <i class="fa-brands fa-pinterest bg-dark p-2 rounded text-white"></i>
+    </div>
+    <p>Designed By<a href="">CodeCommandBD</a></p>
+    <p>&copy;copyright CodeCommandBD. All Rights Reserved</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>
